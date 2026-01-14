@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="800" viewBox="0 0 1280 800">
+  <!-- Background -->
+  <rect width="1280" height="800" fill="#1a1a2e"/>
+  
+  <!-- Grid pattern -->
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff" stroke-width="0.5" opacity="0.05"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="800" fill="url(#grid)"/>
+  
+  <!-- Title -->
+  <text x="640" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="#ffffff">Netflix Skip Intro</text>
+  <text x="640" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#888888">Auto-skip ads and intros on YouTube & Netflix</text>
+  
+  <!-- Popup mockup (centered, scaled up) -->
+  <g transform="translate(440, 180)">
+    <!-- Popup shadow -->
+    <rect x="5" y="5" width="400" height="500" rx="16" fill="#000000" opacity="0.3"/>
+    <!-- Popup background -->
+    <rect width="400" height="500" rx="16" fill="linear-gradient(135deg, #1a1a2e 0%, #16213e 100%)"/>
+    <rect width="400" height="500" rx="16" fill="#1e2340"/>
+    
+    <!-- Header -->
+    <text x="30" y="50" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#00ff88">▶ Netflix Skip Intro</text>
+    <text x="30" y="75" font-family="Arial, sans-serif" font-size="14" fill="#666666">Auto-skip intros &amp; ads</text>
+    
+    <!-- Toggle section -->
+    <rect x="20" y="100" width="360" height="70" rx="10" fill="#00ff8815"/>
+    <text x="40" y="140" font-family="Arial, sans-serif" font-size="16" fill="#ffffff">Auto-Skip Enabled</text>
+    <!-- Toggle switch ON -->
+    <rect x="300" y="120" width="55" height="28" rx="14" fill="#00ff8850"/>
+    <circle cx="341" cy="134" r="11" fill="#00ff88"/>
+    
+    <!-- Target texts label -->
+    <text x="30" y="210" font-family="Arial, sans-serif" font-size="12" fill="#888888">TARGET TEXTS</text>
+    
+    <!-- Tags -->
+    <rect x="20" y="225" width="60" height="30" rx="6" fill="#ffffff15"/>
+    <text x="50" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#00ff88">Skip</text>
+    
+    <rect x="90" y="225" width="85" height="30" rx="6" fill="#ffffff15"/>
+    <text x="132" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#00ff88">Skip Ad</text>
+    
+    <rect x="185" y="225" width="90" height="30" rx="6" fill="#ffffff15"/>
+    <text x="230" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#00ff88">Skip Intro</text>
+    
+    <rect x="285" y="225" width="95" height="30" rx="6" fill="#ffffff15"/>
+    <text x="332" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#00ff88">Skip Ads</text>
+    
+    <!-- Add input -->
+    <rect x="20" y="280" width="300" height="40" rx="6" fill="#ffffff08" stroke="#ffffff20" stroke-width="1"/>
+    <text x="35" y="305" font-family="Arial, sans-serif" font-size="14" fill="#555555">Add new text...</text>
+    <rect x="330" y="280" width="50" height="40" rx="6" fill="#00ff8830"/>
+    <text x="355" y="308" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#00ff88">+</text>
+    
+    <!-- Status -->
+    <rect x="20" y="350" width="360" height="45" rx="8" fill="#00ff8820"/>
+    <text x="200" y="380" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#00ff88">✓ Auto-skip is active</text>
+  </g>
+  
+  <!-- Feature highlights -->
+  <g transform="translate(100, 650)">
+    <circle cx="20" cy="20" r="20" fill="#00ff88"/>
+    <text x="20" y="26" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#1a1a2e">✓</text>
+    <text x="55" y="28" font-family="Arial, sans-serif" font-size="18" fill="#ffffff">Works Automatically</text>
+  </g>
+  
+  <g transform="translate(450, 650)">
+    <circle cx="20" cy="20" r="20" fill="#00ff88"/>
+    <text x="20" y="26" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#1a1a2e">⚡</text>
+    <text x="55" y="28" font-family="Arial, sans-serif" font-size="18" fill="#ffffff">Instant Skip</text>
+  </g>
+  
+  <g transform="translate(750, 650)">
+    <circle cx="20" cy="20" r="20" fill="#00ff88"/>
+    <text x="20" y="26" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#1a1a2e">🎯</text>
+    <text x="55" y="28" font-family="Arial, sans-serif" font-size="18" fill="#ffffff">Customizable Targets</text>
+  </g>
+  
+  <g transform="translate(1050, 650)">
+    <circle cx="20" cy="20" r="20" fill="#00ff88"/>
+    <text x="20" y="26" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#1a1a2e">🔒</text>
+    <text x="55" y="28" font-family="Arial, sans-serif" font-size="18" fill="#ffffff">Privacy First</text>
+  </g>
+</svg>
+

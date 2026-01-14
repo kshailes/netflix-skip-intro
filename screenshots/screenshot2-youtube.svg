@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="800" viewBox="0 0 1280 800">
+  <!-- YouTube dark background -->
+  <rect width="1280" height="800" fill="#0f0f0f"/>
+  
+  <!-- YouTube header bar -->
+  <rect width="1280" height="56" fill="#212121"/>
+  <text x="80" y="38" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#ffffff">YouTube</text>
+  <rect x="20" y="15" width="45" height="28" rx="3" fill="#ff0000"/>
+  <polygon points="32,22 32,36 45,29" fill="#ffffff"/>
+  
+  <!-- Search bar -->
+  <rect x="350" y="12" width="450" height="34" rx="17" fill="#121212" stroke="#303030" stroke-width="1"/>
+  <text x="380" y="35" font-family="Arial, sans-serif" font-size="14" fill="#888888">Search</text>
+  
+  <!-- Video player area -->
+  <rect x="80" y="80" width="854" height="480" rx="12" fill="#000000"/>
+  
+  <!-- Video content (blurred/placeholder) -->
+  <rect x="80" y="80" width="854" height="480" rx="12" fill="#1a1a1a"/>
+  
+  <!-- AD overlay badge -->
+  <rect x="100" y="100" width="45" height="22" rx="3" fill="#f8c800"/>
+  <text x="122" y="116" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#000000">AD</text>
+  
+  <!-- Skip button (highlighted) -->
+  <g transform="translate(750, 460)">
+    <!-- Glow effect -->
+    <rect x="-5" y="-5" width="175" height="55" rx="8" fill="#00ff88" opacity="0.3"/>
+    <rect x="-3" y="-3" width="171" height="51" rx="7" fill="#00ff88" opacity="0.2"/>
+    <!-- Button -->
+    <rect width="165" height="45" rx="5" fill="#ffffff" stroke="#00ff88" stroke-width="3"/>
+    <text x="82" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#000000">Skip Ad</text>
+    <text x="140" y="30" font-family="Arial, sans-serif" font-size="16" fill="#666666">▶▶</text>
+  </g>
+  
+  <!-- Extension indicator -->
+  <g transform="translate(100, 480)">
+    <rect width="280" height="50" rx="25" fill="#00ff88"/>
+    <text x="140" y="32" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#0f0f0f">⚡ Auto-clicking in 0.3s...</text>
+  </g>
+  
+  <!-- Progress bar -->
+  <rect x="80" y="540" width="854" height="4" fill="#404040"/>
+  <rect x="80" y="540" width="200" height="4" fill="#ff0000"/>
+  
+  <!-- Video info -->
+  <text x="80" y="600" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#ffffff">Video Title - Your Content Here</text>
+  <text x="80" y="630" font-family="Arial, sans-serif" font-size="14" fill="#aaaaaa">1.2M views • 2 days ago</text>
+  
+  <!-- Side panel placeholder -->
+  <rect x="960" y="80" width="280" height="160" rx="8" fill="#212121"/>
+  <rect x="960" y="260" width="280" height="160" rx="8" fill="#212121"/>
+  <rect x="960" y="440" width="280" height="160" rx="8" fill="#212121"/>
+  
+  <!-- Bottom banner -->
+  <rect x="0" y="720" width="1280" height="80" fill="#00ff88"/>
+  <text x="640" y="765" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#0f0f0f">✓ Netflix Skip Intro automatically clicks "Skip Ad" for you!</text>
+</svg>
+

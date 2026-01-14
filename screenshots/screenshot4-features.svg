@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="800" viewBox="0 0 1280 800">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#0f0f1a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="800" fill="url(#bgGrad)"/>
+  
+  <!-- Decorative circles -->
+  <circle cx="100" cy="100" r="200" fill="#00ff88" opacity="0.03"/>
+  <circle cx="1180" cy="700" r="250" fill="#e50914" opacity="0.03"/>
+  
+  <!-- Title -->
+  <text x="640" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#ffffff">Why Netflix Skip Intro?</text>
+  <text x="640" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#888888">Save time and enjoy uninterrupted streaming</text>
+  
+  <!-- Feature cards -->
+  <!-- Card 1 -->
+  <g transform="translate(80, 180)">
+    <rect width="340" height="250" rx="16" fill="#ffffff08" stroke="#ffffff15" stroke-width="1"/>
+    <circle cx="170" cy="70" r="40" fill="#00ff8820"/>
+    <text x="170" y="82" text-anchor="middle" font-family="Arial, sans-serif" font-size="36">⚡</text>
+    <text x="170" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#ffffff">Instant Auto-Skip</text>
+    <text x="170" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#888888">Automatically clicks skip buttons</text>
+    <text x="170" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#888888">the moment they appear</text>
+  </g>
+  
+  <!-- Card 2 -->
+  <g transform="translate(470, 180)">
+    <rect width="340" height="250" rx="16" fill="#ffffff08" stroke="#ffffff15" stroke-width="1"/>
+    <circle cx="170" cy="70" r="40" fill="#e5091420"/>
+    <text x="170" y="82" text-anchor="middle" font-family="Arial, sans-serif" font-size="36">🎬</text>
+    <text x="170" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#ffffff">Netflix + YouTube</text>
+    <text x="170" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#888888">Works on both platforms</text>
+    <text x="170" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#888888">Skip intros AND ads</text>
+  </g>
+  
+  <!-- Card 3 -->
+  <g transform="translate(860, 180)">
+    <rect width="340" height="250" rx="16" fill="#ffffff08" stroke="#ffffff15" stroke-width="1"/>
+    <circle cx="170" cy="70" r="40" fill="#00ff8820"/>
+    <text x="170" y="82" text-anchor="middle" font-family="Arial, sans-serif" font-size="36">🎯</text>
+    <text x="170" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#ffffff">Customizable</text>
+    <text x="170" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#888888">Add your own target texts</text>
+    <text x="170" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#888888">for any skip button</text>
+  </g>
+  
+  <!-- Card 4 -->
+  <g transform="translate(190, 470)">
+    <rect width="340" height="250" rx="16" fill="#ffffff08" stroke="#ffffff15" stroke-width="1"/>
+    <circle cx="170" cy="70" r="40" fill="#e5091420"/>
+    <text x="170" y="82" text-anchor="middle" font-family="Arial, sans-serif" font-size="36">🔒</text>
+    <text x="170" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#ffffff">Privacy Focused</text>
+    <text x="170" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#888888">No data collection</text>
+    <text x="170" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#888888">Works 100% locally</text>
+  </g>
+  
+  <!-- Card 5 -->
+  <g transform="translate(750, 470)">
+    <rect width="340" height="250" rx="16" fill="#ffffff08" stroke="#ffffff15" stroke-width="1"/>
+    <circle cx="170" cy="70" r="40" fill="#00ff8820"/>
+    <text x="170" y="82" text-anchor="middle" font-family="Arial, sans-serif" font-size="36">💪</text>
+    <text x="170" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#ffffff">Lightweight</text>
+    <text x="170" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#888888">Zero impact on performance</text>
+    <text x="170" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#888888">Tiny extension size</text>
+  </g>
+</svg>
+

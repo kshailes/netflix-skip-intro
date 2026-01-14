@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="800" viewBox="0 0 1280 800">
+  <!-- Netflix dark background -->
+  <rect width="1280" height="800" fill="#141414"/>
+  
+  <!-- Netflix header -->
+  <rect width="1280" height="68" fill="#000000"/>
+  <text x="40" y="48" font-family="Arial Black, sans-serif" font-size="32" font-weight="bold" fill="#e50914">NETFLIX</text>
+  
+  <!-- Navigation -->
+  <text x="180" y="45" font-family="Arial, sans-serif" font-size="14" fill="#ffffff">Home</text>
+  <text x="250" y="45" font-family="Arial, sans-serif" font-size="14" fill="#888888">TV Shows</text>
+  <text x="340" y="45" font-family="Arial, sans-serif" font-size="14" fill="#888888">Movies</text>
+  
+  <!-- Video player (full width) -->
+  <rect x="0" y="68" width="1280" height="600" fill="#0a0a0a"/>
+  
+  <!-- Movie scene placeholder -->
+  <rect x="0" y="68" width="1280" height="600" fill="#1a1a1a"/>
+  
+  <!-- Cinematic bars -->
+  <rect x="0" y="68" width="1280" height="60" fill="#000000"/>
+  <rect x="0" y="608" width="1280" height="60" fill="#000000"/>
+  
+  <!-- Show title overlay -->
+  <g transform="translate(60, 450)">
+    <text font-family="Arial, sans-serif" font-size="16" fill="#ffffff" opacity="0.7">Now Playing</text>
+    <text y="45" font-family="Arial Black, sans-serif" font-size="42" font-weight="bold" fill="#ffffff">STRANGER THINGS</text>
+    <text y="80" font-family="Arial, sans-serif" font-size="16" fill="#888888">S4 E1 • "Chapter One: The Hellfire Club"</text>
+  </g>
+  
+  <!-- Skip Intro button (highlighted) -->
+  <g transform="translate(1000, 520)">
+    <!-- Glow effect -->
+    <rect x="-8" y="-8" width="236" height="66" rx="8" fill="#00ff88" opacity="0.4"/>
+    <rect x="-4" y="-4" width="228" height="58" rx="6" fill="#00ff88" opacity="0.2"/>
+    <!-- Button -->
+    <rect width="220" height="50" rx="4" fill="#ffffff" stroke="#00ff88" stroke-width="3"/>
+    <text x="110" y="33" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#000000">Skip Intro</text>
+  </g>
+  
+  <!-- Extension notification -->
+  <g transform="translate(1000, 590)">
+    <rect width="220" height="40" rx="20" fill="#00ff88"/>
+    <text x="110" y="27" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#141414">⚡ Auto-skipping...</text>
+  </g>
+  
+  <!-- Progress bar -->
+  <rect x="60" y="640" width="1160" height="3" fill="#404040"/>
+  <rect x="60" y="640" width="150" height="3" fill="#e50914"/>
+  <circle cx="210" cy="641" r="6" fill="#e50914"/>
+  
+  <!-- Time -->
+  <text x="60" y="625" font-family="Arial, sans-serif" font-size="12" fill="#ffffff">1:23 / 52:18</text>
+  
+  <!-- Bottom banner -->
+  <rect x="0" y="720" width="1280" height="80" fill="#e50914"/>
+  <text x="640" y="765" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#ffffff">✓ Never watch another intro again - Skipped automatically!</text>
+</svg>
+
