@@ -1,9 +1,9 @@
 {
   "manifest_version": 3,
   "name": "Netflix Skip Intro",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Automatically skip intros and ads on Netflix and YouTube",
-  "permissions": ["activeTab", "scripting", "storage"],
+  "permissions": ["storage"],
   "host_permissions": [
     "https://*.youtube.com/*",
     "https://*.netflix.com/*"
