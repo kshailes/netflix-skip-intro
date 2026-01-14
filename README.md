@@ -1,4 +1,4 @@
-# Text Clicker - Chrome Extension
+# netflix-skip-intro - Chrome Extension
 
 A Chrome extension that **automatically clicks** on specific text like "Skip", "Skip Ad", and "Skip Intro" when they appear on screen. Perfect for skipping YouTube ads, video intros, and more.
 
